@@ -64,6 +64,11 @@ export const languages: Skill[] = [
     name: "Bootstrap",
     level: "30",
   },
+  {
+    Icon: BsCircleFill,
+    name: "Bootstrap",
+    level: "40",
+  },
 ];
 
 export const tools: Skill[] = [
