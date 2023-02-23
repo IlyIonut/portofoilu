@@ -4,15 +4,21 @@ import {motion} from 'framer-motion';
 import { fadeInUp, routeAnimation } from "../animations";
 import { stagger } from "../animations";
 import { GetServerSidePropsContext } from "next";
+import Head from "next/head";
 
 
 const index = () => {
     return (
         <motion.div variants={routeAnimation} initial="initial" animate="animate" exit="exit" className="flex flex-col flex-grow px-6 pt-1">
-            <h5 className="my-3 font-mediu">I am currently pursuing B.Tech Degree(Final Year) in Computer Science
+            <head>
+                <title>
+                    Web Developer | portofoliu | Ionut
+                </title>
+            </head>
+            <h6 className="my-3 font-mediu">I am currently pursuing B.Tech Degree(Final Year) in Computer Science
         Engineering from Academy of Technology. I have 3+ years of experience in
         Web Development and I have a Youtube Channel where I teach Full Stack
-        Web Development</h5>
+        Web Development</h6>
             <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100" style={{marginLeft:'-1.5rem',marginRight:'-1.5rem'}}>
                 <h6 className="my-3 font-bold tracking-wide text-x1">What i offer</h6>
                 <motion.div className="grid gap-6 lg:grid-cols-2" variants={stagger}>
