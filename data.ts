@@ -27,19 +27,13 @@ export const services: Service[] = [
   {
     Icon: MdDeveloperMode,
     title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    about: "I know how to use all available resources to solve any type of error, no matter how long it takes ",
   },
   {
     Icon: AiOutlineAntDesign,
     title: "UI/UX designer",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
-  },
-  {
-    Icon: RiComputerLine,
-    title: "Whatever",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+      "stunning user interface designer using <b>Figma</b>, <b>Photoshop</b>  and  <b>Illustrator</b> ",
   },
 ];
 
@@ -58,11 +52,6 @@ export const languages: Skill[] = [
     Icon: BsCircleFill,
     name: "React Native",
     level: "50",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Bootstrap",
-    level: "30",
   },
   {
     Icon: BsCircleFill,

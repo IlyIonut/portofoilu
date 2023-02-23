@@ -14,7 +14,7 @@ const resume = () => {
             </head>
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
                     <motion.div variants={fadeInUp} initial="initial" animate="animate">
-                        <h5 className="my-3 font-bold text-2x1 ">Education</h5>
+                        <h6 className="my-3 font-bold text-2x1 ">Education</h6>
                         <div>
                             <h5 className="my-2 font-bold text-x1">Faculty of Electronics, Telecommunications and Information Technology</h5>
                             <p className="font-semibold">Universitatea Tehnica din Cluj-Napoca</p>
@@ -22,7 +22,7 @@ const resume = () => {
                         </div>
                     </motion.div>
                     <motion.div variants={fadeInUp} initial="initial" animate="animate">
-                        <h5 className="my-3 font-bold text-2x1 ">Experience</h5>
+                        <h6 className="my-3 font-bold text-2x1 ">Experience</h6>
                         <div>
                             <h5 className="my-2 font-bold text-x1">Junior Developer</h5>
                             <p className="font-semibold">Universitatea Tehnica din Cluj-Napoca</p>
