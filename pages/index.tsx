@@ -38,17 +38,17 @@ const index = () => {
 
 export default index
 
-// export const getServerSideProps = async(context: GetServerSidePropsContext) =>
-// {
-//     // const res = await fetch(`${process.env.VERCEL_URL}/api/services`)
-//     // const data = await res.json()
+export const getServerSideProps = async(context: GetServerSidePropsContext) =>
+{
+    // const res = await fetch(`${process.env.VERCEL_URL}/api/services`)
+    // const data = await res.json()
     
-//     return{
-//         props:{
-//             endpoint: process.env.VERCEL_URL,
-//         },
-//     }
-// }
+    return{
+        props:{
+            endpoint: process.env.VERCEL_URL,
+        },
+    }
+}
 // export const getStaticProps = async(context: GetStaticPropsContext) =>
 // {
 //     const res = await fetch('http://localhost:3000/api/services')

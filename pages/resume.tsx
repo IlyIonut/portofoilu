@@ -16,7 +16,7 @@ const resume = () => {
                     <motion.div variants={fadeInUp} initial="initial" animate="animate">
                         <h5 className="my-3 font-bold text-2x1 ">Education</h5>
                         <div>
-                            <h5 className="my-2 font-bold text-x1">Computer Science Engineriing</h5>
+                            <h5 className="my-2 font-bold text-x1">Faculty of Electronics, Telecommunications and Information Technology</h5>
                             <p className="font-semibold">Universitatea Tehnica din Cluj-Napoca</p>
                             <p className="my-3">Lorem Ipsum.......</p>
                         </div>
