@@ -46,7 +46,7 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Java Script",
-    level: "40",
+    level: "60",
   },
   {
     Icon: BsCircleFill,

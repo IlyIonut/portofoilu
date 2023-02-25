@@ -7,11 +7,11 @@ const resume = () => {
     
     return(
         <motion.div variants={routeAnimation} initial="initial" animate="animate" exit="exit" className="px-6 py-2">
-            <head>
+            {/* <head>
                 <title>
                     Web Developer | Resume | Ionut
                 </title>
-            </head>
+            </head> */}
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
                     <motion.div variants={fadeInUp} initial="initial" animate="animate">
                         <h6 className="my-3 font-bold text-2x1 ">Education</h6>
@@ -31,7 +31,7 @@ const resume = () => {
                     </motion.div>
                 </div>
 
-                <div className="grid gap-6 md:grid-cold-2 lg:grid-cols-2">
+                <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-2">
                     <div>
                         <h5 className="my-3 font-bold text 2x1">Languages & Frameworks</h5>
                         <div className="my-2">
