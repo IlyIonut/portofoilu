@@ -85,7 +85,7 @@ export const projects:IProject[] = [
     name: "Smart Brain",
     description:
       "In this application we have implemented a face-recognition Api together with a server and a database called on AWS. To work, download the repository and run npm start.",
-    image_path: "/images/smartbrain.jpg",
+    image_path: "/images/smartbrain.png",
     deployed_url: "https://ilyionut.github.io/facerecognition/",
     github_url: "https://github.com/IlyIonut/facerecognition.git",
     category: ["React"],
@@ -94,7 +94,7 @@ export const projects:IProject[] = [
   {
     id:2,
     name: "RoboFriends",
-    image_path: "/images/RoboFriends.jpg",
+    image_path: "/images/RoboFriends.png",
     deployed_url: "https://robofriends-flax.vercel.app/",
     github_url: "https://github.com/IlyIonut/robofriends",
     category: ["React"],
