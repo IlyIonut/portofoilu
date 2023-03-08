@@ -26,9 +26,9 @@ const Sidebar = () => {
             <a className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200' 
             href='/assets/CV_IliesIonutCristian.pdf' download='CV_IliesIonutCristian.pdf'><GiTie className='w-6 h-6' />Download Resume</a>
             <div className='flex justify-around w-9/12 mx-auto my-5 text-green md:w-full'>
-                <a href='https://github.com/IlyIonut' target="_blank" ><AiFillGithub className='w-8 h-8 cursor-pointer' aria-label='Github'/></a>
-                <a href='https://www.linkedin.com/in/ionut-ilies/' target="_blank" ><AiFillLinkedin className='w-8 h-8 cursor-pointer' aria-label='Linkedin'/></a>
-                <a href='https://www.instagram.com/ili_ionut/' target="_blank" ><AiFillInstagram className='w-8 h-8 cursor-pointer' aria-label='Instagram' /></a>
+                <a href='https://github.com/IlyIonut' target="_blank" rel="noreferrer"><AiFillGithub className='w-8 h-8 cursor-pointer' aria-label='Github'/></a>
+                <a href='https://www.linkedin.com/in/ionut-ilies/' target="_blank" rel="noreferrer"><AiFillLinkedin className='w-8 h-8 cursor-pointer' aria-label='Linkedin'/></a>
+                <a href='https://www.instagram.com/ili_ionut/' target="_blank" rel="noreferrer"><AiFillInstagram className='w-8 h-8 cursor-pointer' aria-label='Instagram' /></a>
             </div>
             <div className='py-4 my-5 bg-gray-200 dark:bg-dark-200' style={{marginLeft:'-1rem',marginRight:'-1rem'}}>
                 <div className='flex justify-center space-x-2 idems-center'>
