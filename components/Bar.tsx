@@ -32,7 +32,7 @@ const Bar: FunctionComponent<{ data: Skill }> = ({
         animate="animate"
 
       >
-        <Icon className="mr-3" /> {name}
+        <Icon className="flex-none mr-3" /> {name}
       </motion.div>
     </div>
   );

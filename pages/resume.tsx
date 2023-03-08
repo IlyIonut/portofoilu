@@ -7,26 +7,28 @@ const resume = () => {
     
     return(
         <motion.div variants={routeAnimation} initial="initial" animate="animate" exit="exit" className="px-6 py-2">
-            {/* <head>
+             <head>
                 <title>
                     Web Developer | Resume | Ionut
                 </title>
-            </head> */}
+            </head> 
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
                     <motion.div variants={fadeInUp} initial="initial" animate="animate">
-                        <h6 className="my-3 font-bold text-2x1 ">Education</h6>
+                        <h6 className="my-3 text-2xl font-semibold ">Education</h6>
                         <div>
-                            <h5 className="my-2 font-bold text-x1">Faculty of Electronics, Telecommunications and Information Technology</h5>
-                            <p className="font-semibold">Universitatea Tehnica din Cluj-Napoca</p>
-                            <p className="my-3">Lorem Ipsum.......</p>
+                            <p className="my-2 text-xl font-medium">Universitatea Tehnica din Cluj-Napoca</p>
+                            <h5 className="font-medium">Faculty of Electronics, Telecommunications and Information Technology</h5>
+                            <p className="my-3">Economic Engineering Profile</p>
                         </div>
                     </motion.div>
                     <motion.div variants={fadeInUp} initial="initial" animate="animate">
-                        <h6 className="my-3 font-bold text-2x1 ">Experience</h6>
+                        <h6 className="my-3 text-2xl font-bold ">Experience</h6>
                         <div>
-                            <h5 className="my-2 font-bold text-x1">Junior Developer</h5>
-                            <p className="font-semibold">Universitatea Tehnica din Cluj-Napoca</p>
-                            <p className="my-3">Lorem Ipsum.......</p>
+                            <h5 className="inline text-xl font-medium">SAS UTCN</h5>
+                            <h1 className="inline my-3 font-medium"> -  Student Entrepreneurial Society</h1>
+                            <p className="font-medium">Coordinator of the media department</p>
+                            <p className="my-3">In the media department I was responsible department coordination and all promotional materials and postings
+                                necessary for the events organized by SAS.</p>
                         </div>
                     </motion.div>
                 </div>
