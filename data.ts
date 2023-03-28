@@ -113,4 +113,15 @@ export const projects:IProject[] = [
       "Zero Waste is a startup that I work on together with some students and here I have uploaded some design elements made by me for the website and application.",
     key_techs: ["Photoshop"],
   },
+  {
+    id:4,
+    name: "The Complete Web Developer in 2023: Zero to Mastery",
+    image_path: "/images/Certificat_Curs_WebDevelopment.jpg",
+    deployed_url: "https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/",
+    github_url: "/",
+    category: ["Courses"],
+    description:
+      "Zero Waste is a startup that I work on together with some students and here I have uploaded some design elements made by me for the website and application.",
+    key_techs: ["Courses"],
+  },
 ];

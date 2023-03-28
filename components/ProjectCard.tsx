@@ -36,10 +36,11 @@ const ProjectCard:FunctionComponent<{
                 <Image src={image_path} alt={name} width={300} height={150} layout="responsive"/>
                 </motion.div>
                     <motion.div variants={fadeInUp} className="flex justify-center my-4 space-x-3">
+                        {github_url !== "/" ? (
                         <a  target="_blank" rel="noreferrer" href={github_url} className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200">
                             <AiFillGithub/> 
                             <span>GitHub</span>
-                        </a>
+                        </a>):null}
                         <div>
                         {deployed_url !== "/" ? (
                         <a  target="_blank" rel="noreferrer" href={deployed_url} className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200">

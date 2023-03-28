@@ -13,7 +13,7 @@ const Sidebar = () => {
     };
     return(
         <div>
-            <Image src='https://scontent.fomr1-1.fna.fbcdn.net/v/t1.6435-9/126481704_3456777124410372_1434480488186965812_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=HN4Wpbj8AqoAX-TGv8g&tn=ScxKZeiTbU9h6qP8&_nc_ht=scontent.fomr1-1.fna&oh=00_AfAsJqXzunqLRXNtKHvaY2k5ceiBKi9IxdzcpETe_yycWA&oe=641384C0'
+            <Image src='/images/profil.jpg'
             alt='user avatar'
             className='w-32 h-32 mx-auto rounded-full'
             height="128"

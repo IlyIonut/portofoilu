@@ -25,6 +25,7 @@ const ProjectsNavbar:FunctionComponent<{handlerFilterCategory:Function,active:st
             <NavItem value="all" {...props}/>
             <NavItem value="React" {...props}/>
             <NavItem value="Photoshop" {...props}/>
+            <NavItem value="Courses" {...props}/>
         </div>
     )
 }

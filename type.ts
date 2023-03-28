@@ -23,4 +23,4 @@ export interface IProject{
     key_techs:string[];
 }
 
-export type Category = "React" | "Photoshop";
+export type Category = "React" | "Courses" | "Photoshop"  ;
