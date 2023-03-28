@@ -118,10 +118,32 @@ export const projects:IProject[] = [
     name: "The Complete Web Developer in 2023: Zero to Mastery",
     image_path: "/images/Certificat_Curs_WebDevelopment.jpg",
     deployed_url: "https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/",
-    github_url: "/",
+    github_url: "https://github.com/IlyIonut/Cursuri",
     category: ["Courses"],
     description:
-      "Zero Waste is a startup that I work on together with some students and here I have uploaded some design elements made by me for the website and application.",
+      "A course about Web Developer in 2023 with HTML, CSS, Javascript, React, Node.js, Machine Learning & more!",
     key_techs: ["Courses"],
+  },
+  {
+    id:5,
+    name: "Promotional materials for a party",
+    image_path: "/images/Prezentare_party_post.png",
+    deployed_url: "/",
+    github_url: "https://github.com/IlyIonut/Materiale",
+    category: ["Photoshop"],
+    description:
+      "Materials for a party organized in Cluj-Napoca",
+    key_techs: ["Photoshop"],
+  },
+  {
+    id:6,
+    name: "Promotional materials for SAS UTCN events",
+    image_path: "/images/Demoday.png",
+    deployed_url: "/",
+    github_url: "https://github.com/IlyIonut/Materiale/tree/main/Materiale_SAS",
+    category: ["Photoshop"],
+    description:
+      "Materials for various events organized within Student Entrepreneurial Societies within UTCN",
+    key_techs: ["Photoshop"],
   },
 ];
