@@ -95,7 +95,7 @@ export const projects:IProject[] = [
     id:2,
     name: "RoboFriends",
     image_path: "/images/RoboFriends.png",
-    deployed_url: "https://robofriends-flax.vercel.app/",
+    deployed_url: "https://ilyionut.github.io/robofriends/",
     github_url: "https://github.com/IlyIonut/robofriends",
     category: ["React"],
     description:

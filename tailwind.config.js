@@ -13,7 +13,10 @@ module.exports = {
         extend: {
             colors:{
                 green:{
-                    DEFAULT: '#00f260',
+                    DEFAULT: '#2596be',
+                },
+                greenxt:{
+                    DEFAULT: '#63a4ff',
                 },
                 dark:{
                     DEFAULT: "#010101",
@@ -23,6 +26,9 @@ module.exports = {
                     500: "#0f1115",
                     700: "#202125",
                 },
+                bluext:{
+                     DEFAULT:'#83eaf1 ',
+                }
             },
         },
     },
