@@ -82,7 +82,7 @@ export const tools: Skill[] = [
 export const projects:IProject[] = [
   { 
     id:1,
-    name: "Smart Brain",
+    name: "SkillConnect",
     description:
       "This is an application created for the purpose of undergraduate work. The purpose of the application is to offer users a place where they can find other people depending on the skills they are looking for. The application uses Google Firebase as a database.",
     image_path: "/images/SkillConnect.PNG",
